@@ -1,0 +1,8 @@
+on: [push]
+
+jobs: 
+  
+  - uses: "finnp/create-file-action@master"
+      env:
+        FILE_NAME: "fileName.txt"
+        FILE_DATA: "file content"
